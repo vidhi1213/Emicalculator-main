@@ -1,0 +1,107 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.overlay{position: fixed;inset: 0; width: 100%;height: 100%; display: flex;align-items: center;justify-content: center;background: rgba(0,0,0,0.7);}
+button{cursor: pointer;}
+.container{
+    max-width: 1024px;
+   margin: 0 auto;
+    padding: 0 15px;
+    .main_content{
+        margin-top: 40px;
+        padding: 40px;
+        box-shadow: 0 1px 4px 0px rgb(0 0 0 / 12%);
+    .main_emi{
+       text-align: center;
+       border-bottom:1px solid #dedede;
+       button{
+           background-color: #1565c0;
+           color: #ffffff;
+           border: none;
+           padding: 12px;
+           font-size: 16px;
+       
+       }
+      
+       p{
+           margin: 15px 0;
+       }
+       h1{
+           position: relative;
+           margin: 25px 0;
+       
+       &:after{
+        content: '';
+        position: absolute;
+        width: 70px;
+        height: 4px;
+        left: 47%;
+        top: 40px;
+        background-color: #1565c0;
+    }
+}
+    }
+    }
+    .form_section{
+        padding-top: 40px;
+        form{
+     display: flex;
+     flex-wrap: wrap;
+        .formdata{
+            width: 50%;
+        margin-right: 60px;
+        .field_row{
+            width: 100%;
+        max-width: 260px;
+        margin-right: 24px;
+        margin-bottom: 10px;
+        label{
+        font-size: 16px;
+        line-height: 16px;
+        color: #4f4f4f;
+        display: block;
+        margin-bottom: 5px;
+        }
+        input{
+            display: block;
+        width: 100%;
+        border: 1px solid#dedede;
+        outline: none;
+        font-size: 12px;
+        line-height: 14px;
+        color: #000;
+        padding: 12px 11px;
+        border-radius: 5px;
+        }
+        }
+        
+        .d_flex{
+            display: flex;
+            margin-top: 20px;
+            .field_row:first-child{
+                padding-right: 20px;
+            }
+        }
+        button{
+
+            background-color: #1565c0;
+            color: #ffffff;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+        }
+    }
+    .emirate{
+        &_top{
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .interet_content{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+    }
+    }
+}
+
+   
+}
